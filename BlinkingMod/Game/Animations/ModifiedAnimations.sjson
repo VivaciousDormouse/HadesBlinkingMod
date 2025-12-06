@@ -1,0 +1,11 @@
+
+{
+  Animations = [
+	"_search", [ 	
+			{ Name = "Portrait_Aphrodite_Default_01" }
+			{ ChildAnimation = "Portrait_Aphrodite_Blink" }
+			{ Name = "Portrait_ChildGhost_Default_01"}
+			{ ChildAnimation = "Portrait_Hypnos_Blink" }
+		]
+	]
+}

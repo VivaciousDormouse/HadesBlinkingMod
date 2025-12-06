@@ -1,0 +1,76 @@
+
+{
+  Animations = [
+    "_append"
+	{
+	  Name = "Portrait_Aphrodite_Blink"
+      ChildAnimation = "PortraitGodRayEmitter_Aphrodite"
+      FilePath = "VivaciousDormouse-BlinkingMod\Aphrodite\Portraits_Aphrodite_Blink_01"
+      Type = "Slide"
+      Loop = true
+      Scale = 0.8
+      Material = "Unlit"
+      OffsetY = -8.0
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Aphrodite\Portraits_Aphrodite_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Aphrodite\Portraits_Aphrodite_Blink_02"
+          RandomDurationFramesMin = 2
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Aphrodite\Portraits_Aphrodite_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Aphrodite\Portraits_Aphrodite_Blink_02"
+          RandomDurationFramesMin = 2
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Aphrodite\Portraits_Aphrodite_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+	{
+	  Name = "Portrait_Hypnos_Blink"
+      FilePath = "VivaciousDormouse-BlinkingMod\Hypnos\Portraits_Hypnos_Blink_01"
+      Type = "Slide"
+      Loop = true
+      Material = "Unlit"
+      Scale = 0.8
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Hypnos\Portraits_Hypnos_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Hypnos\Portraits_Hypnos_Blink_02"
+          RandomDurationFramesMin = 6
+          RandomDurationFramesMax = 10
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Hypnos\Portraits_Hypnos_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Top Import "config.lua"
+Import "main.lua"
+
+To "Game/Animations/PortraitAnimations.sjson"
+SJSON "Game/Animations/AddedAnimations.sjson"
+
+To "Game/Animations/PortraitAnimations.sjson"
+SJSON "Game/Animations/ModifiedAnimations.sjson"
+
+To Win/Packages/VivaciousDormouse-BlinkingMod.pkg_manifest
+Replace "Packages/VivaciousDormouse-BlinkingMod.pkg_manifest"
+
+To Win/Packages/720p/VivaciousDormouse-BlinkingMod.pkg_manifest
+Replace "Packages/VivaciousDormouse-BlinkingMod.pkg_manifest"
+
+To Win/Packages/VivaciousDormouse-BlinkingMod.pkg
+Replace "Packages/VivaciousDormouse-BlinkingMod.pkg"
+
+To Win/Packages/720p/VivaciousDormouse-BlinkingMod.pkg
+Replace "Packages/VivaciousDormouse-BlinkingMod.pkg"
