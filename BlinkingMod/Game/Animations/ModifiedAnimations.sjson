@@ -6,6 +6,18 @@
 			{ ChildAnimation = "Portrait_Aphrodite_Blink" }
 			{ Name = "Portrait_ChildGhost_Default_01"}
 			{ ChildAnimation = "Portrait_Hypnos_Blink" }
+			{ Name = "Portrait_Hermes_Default_01"}
+			{ ChildAnimation = "Portrait_Hermes_Blink" }
+			{ Name = "Portrait_Zeus_Default_01"}
+			{ ChildAnimation = "Portrait_Zeus_Blink" }
+			{ Name = "Portrait_Artemis_Default_01"}
+			{ ChildAnimation = "Portrait_Artemis_Blink" }
+			{ Name = "Portrait_Poseidon_Default_01"}
+			{ ChildAnimation = "Portrait_Poseidon_Blink" 
+			FilePath = "VivaciousDormouse-BlinkingMod\Poseidon\Portraits_Poseidon_Default_Scaled_Base"
+			Scale = 0.95}
+			{ Name = "Portrait_Demeter_Default_01"}
+			{ ChildAnimation = "Portrait_Demeter_Blink" }
 		]
 	]
 }
