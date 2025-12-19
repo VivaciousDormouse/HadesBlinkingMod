@@ -9,7 +9,6 @@
       Type = "Slide"
       Loop = true
       Scale = 0.8
-      Material = "Unlit"
       OffsetY = -8.0
       Slides = [
         {
@@ -48,7 +47,6 @@
       FilePath = "VivaciousDormouse-BlinkingMod\Hypnos\Portraits_Hypnos_Blink_01"
       Type = "Slide"
       Loop = true
-      Material = "Unlit"
       Scale = 0.8
       Slides = [
         {
@@ -64,6 +62,152 @@
         {
           DurationFrames = 4
           FilePath = "VivaciousDormouse-BlinkingMod\Hypnos\Portraits_Hypnos_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+	{
+	  Name = "Portrait_Hermes_Blink"
+      FilePath = "VivaciousDormouse-BlinkingMod\Hermes\Portraits_Hermes_Blink_01"
+      ChildAnimation = "PortraitGodRayEmitter_Hermes"
+      Type = "Slide"
+      Loop = true
+      Scale = 0.8
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Hermes\Portraits_Hermes_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Hermes\Portraits_Hermes_Blink_02"
+          RandomDurationFramesMin = 2
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Hermes\Portraits_Hermes_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+	{
+	  Name = "Portrait_Zeus_Blink"
+      FilePath = "VivaciousDormouse-BlinkingMod\Zeus\Portraits_Zeus_Blink_01"
+      ChildAnimation = "PortraitGodRayEmitter_Zeus"
+      Type = "Slide"
+      Loop = true
+      Scale = 0.8
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Zeus\Portraits_Zeus_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Zeus\Portraits_Zeus_Blink_02"
+          RandomDurationFramesMin = 4
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Zeus\Portraits_Zeus_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+	{
+	  Name = "Portrait_Artemis_Blink"
+      FilePath = "VivaciousDormouse-BlinkingMod\Artemis\Portraits_Artemis_Blink_01"
+      ChildAnimation = "PortraitGodRayEmitter_Artemis"
+      Type = "Slide"
+      Loop = true
+      Scale = 0.8
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Artemis\Portraits_Artemis_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Artemis\Portraits_Artemis_Blink_02"
+          RandomDurationFramesMin = 4
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Artemis\Portraits_Artemis_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+	{
+	  Name = "Portrait_Poseidon_Blink"
+      FilePath = "VivaciousDormouse-BlinkingMod\Poseidon\Portraits_Poseidon_Blink_01"
+      ChildAnimation = "PortraitGodRayEmitter_Poseidon"
+      Type = "Slide"
+      Loop = true
+      Scale = 0.95
+      OffsetY = -140.0
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Poseidon\Portraits_Poseidon_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Poseidon\Portraits_Poseidon_Blink_02"
+          RandomDurationFramesMin = 4
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Poseidon\Portraits_Poseidon_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "Dev\blank_invisible"
+          RandomDurationFramesMin = 45
+          RandomDurationFramesMax = 200
+        }]
+    }
+	{
+	  Name = "Portrait_Demeter_Blink"
+      FilePath = "VivaciousDormouse-BlinkingMod\Demeter\Portraits_Demeter_Blink_01"
+      ChildAnimation = "PortraitGodRayEmitter_Demeter"
+      Type = "Slide"
+      Loop = true
+      Scale = 0.8
+      Slides = [
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Demeter\Portraits_Demeter_Blink_01"
+        }
+        {
+          DurationFrames = 1
+          FilePath = "VivaciousDormouse-BlinkingMod\Demeter\Portraits_Demeter_Blink_02"
+          RandomDurationFramesMin = 4
+          RandomDurationFramesMax = 6
+        }
+        {
+          DurationFrames = 4
+          FilePath = "VivaciousDormouse-BlinkingMod\Demeter\Portraits_Demeter_Blink_01"
         }
         {
           DurationFrames = 1

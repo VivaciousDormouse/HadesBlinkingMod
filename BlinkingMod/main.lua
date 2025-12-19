@@ -9,17 +9,3 @@ ModUtil.WrapBaseFunction( "SetupMap", function(base)
     LoadPackages({Name = blink_package})
     return base()
 end)
-
-
-ModUtil.WrapBaseFunction( "DisplayTextLine", function(baseFunc, screen, source, line, parentLine)
-    DebugPrint({Text = "Hi"})
-    -- DebugPrint({Text = "@"..mod.." Trying to load package "..package..".pkg"})
-    -- LoadPackages({Name = package})
-	
-    return baseFunc(screen, source, line, parentLine)
-end)
-
-
-OnAnyLoad{ "DeathArea", function (triggerArgs)
-    DebugPrint({Text = "Hello World!"})
-end}
